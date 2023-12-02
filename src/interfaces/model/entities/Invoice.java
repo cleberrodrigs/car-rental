@@ -1,12 +1,11 @@
 package interfaces.model.entities;
 
 public class Invoice {
-	
+
 	private Double basicPayment;
 	private Double tax;
 	
 	public Invoice() {
-		
 	}
 
 	public Invoice(Double basicPayment, Double tax) {
@@ -33,7 +32,4 @@ public class Invoice {
 	public Double getTotalPayment() {
 		return getBasicPayment() + getTax();
 	}
-	
-	
-
 }
